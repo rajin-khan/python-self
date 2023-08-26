@@ -1,0 +1,19 @@
+in settings.json, code runner has to run python with " /usr/local/bin/python3 -u "filelocation" "
+instead of " python -u "filelocation" "
+this is because by default, "python" being called revers to 2.7, which is left intact becuase 
+a lot of OS stuff depends on it. so don't change or uninstall this version.
+best to just call that version of python when executing or interpreting.
+
+
+instead of libraries and header files, we have modules in python that serve the same purpose.
+so there's a math module, etc.
+
+you get it in your program by:
+" import *libraryname* "
+that's literally it.
+
+then libraryname is a class whose methods you can access.
+for example if you did "import math"
+then you would access the functions in the math library like you would access methods of a class, with the dot operator.
+so:
+"math.*nameofmethod*"
