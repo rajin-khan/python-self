@@ -1,5 +1,0 @@
-in settings.json, code runner has to run python with " /usr/local/bin/python3 -u "filelocation" "
-instead of " python -u "filelocation" "
-this is because by default, "python" being called revers to 2.7, which is left intact becuase 
-a lot of OS stuff depends on it. so don't change or uninstall this version.
-best to just call that version of python when executing or interpreting.
