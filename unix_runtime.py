@@ -62,4 +62,4 @@ while True:
         
     elif menu_option == 2:
         
-        space = delete(store_inventory, inventory_size)
+        space = delte(store_inventory, inventory_size)
