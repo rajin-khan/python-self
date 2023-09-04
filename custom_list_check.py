@@ -16,3 +16,7 @@ user_check = input("\nEnter the item to be checked: ")
 if user_check.lower() in items:
     
     print(f"Yes, {user_check} is present!")
+
+else:
+    
+    print("Item is not present!")
