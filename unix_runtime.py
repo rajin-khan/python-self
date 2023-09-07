@@ -2,7 +2,9 @@ inventory = []
 
 def additem():
     
-    itemcount = int(input("How many items would you like to add? "))
+    itemcount = int(input("\nHow many items would you like to add? "))
+    
+    print("")
     
     for i in range(itemcount):
         
@@ -13,7 +15,7 @@ def additem():
         
 def deleteitem():
     
-    itemcount = int(input("How many items would you like to delete? "))
+    itemcount = int(input("\nHow many items would you like to delete? "))
     
     counter = 0
     
@@ -21,7 +23,7 @@ def deleteitem():
         
         delete_index = 0
         
-        user_input = input("Enter the name of the item you would like to delete: ")
+        user_input = input("\nEnter the name of the item you would like to delete: ")
         
         while delete_index < len(inventory):
             
@@ -48,6 +50,8 @@ def viewinventory():
     
     view_index = 0
     
+    print("")
+    
     while view_index < len(inventory):
         
         print(f"Item {view_index+1}: {inventory[view_index]}")
@@ -61,7 +65,7 @@ additem()
 
 while True:
     
-    print("What would you like to do?")
+    print("\nWhat would you like to do?")
     
     print("1: Add more items")
     print("2: Delete items")
@@ -70,7 +74,7 @@ while True:
     print("5: Search for an item")
     print("0: Quit")
     
-    main_choice = int(input("Enter a number to pick an option: "))
+    main_choice = int(input("\nEnter a number to pick an option: "))
     
     if main_choice == 1:
         
