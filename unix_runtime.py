@@ -4,11 +4,9 @@ def additem():
     
     itemcount = int(input("\nHow many items would you like to add? "))
     
-    print("")
-    
     for i in range(itemcount):
         
-        user_input = input("Enter the name of the item: ")
+        user_input = input("\nEnter the name of the item: ")
         inventory.append(user_input)
         
         print("Item added!")
@@ -45,6 +43,32 @@ def deleteitem():
             print("Item not found in inventory.")
             
             counter -= 1
+ 
+def updateitem():
+    
+    print("\nCurrent inventory: ")
+     
+    viewinventory()
+    
+    itemcount = int(input("\nHow many items would you like to update? "))
+    
+    counter = 0
+    
+    while counter < itemcount:
+    
+        update_input = int(input("\nEnter the item number you would like to update: "))
+        
+        if update_input - 1 >= 0 and update_input - 1 <= len(inventory) - 1:
+            
+            inventory[update_input-1] = input("\nEnter the name of the new item: ")
+            print("Item updated!")
+        
+        else:
+            
+            print("Enter a valid item number.")
+            counter -= 1
+        
+        counter += 1
     
 def viewinventory():
     
