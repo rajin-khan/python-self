@@ -1,65 +1,104 @@
-store_inventory = []
+inventory = []
 
-def add(inventory, size):
+def additem():
     
-    space = size
+    itemcount = int(input("How many items would you like to add? "))
     
-    input_size = int(input("How many items would you like to enter?: "))
-
-    for i in range(input_size):
+    for i in range(itemcount):
         
-        print(f"\nSpace left in inventory: {space}\n")
-    
-        user_input = int(input(f"Enter the item at index {i}: "))
-    
+        user_input = input("Enter the name of the item: ")
         inventory.append(user_input)
         
-        space -= 1
+        print("Item added!")
         
-    return space
-
-def delete(inventory, size):
+def deleteitem():
     
-    space = size
+    itemcount = int(input("How many items would you like to delete? "))
     
-    deletion_size = int(input("How many items would you like to delete?: "))
-
-    for i in range(deletion_size):
+    counter = 0
+    
+    while counter < itemcount:
         
-        print(f"\nSpace left in inventory: {space}\n")
+        delete_index = 0
         
-        user_input = int(input(f"Enter the name of the item to be deleted: "))
+        user_input = input("Enter the name of the item you would like to delete: ")
+        
+        while delete_index < len(inventory):
             
+            if inventory[delete_index] == user_input:
+                
+                inventory.remove(user_input)
+                print("Item deleted!")
+                
+                break
             
+            else:
+                
+                delete_index += 1
+                
+        counter += 1
+            
+        if delete_index == len(inventory):
+            
+            print("Item not found in inventory.")
+            
+            counter -= 1
+    
+def viewinventory():
+    
+    view_index = 0
+    
+    while view_index < len(inventory):
         
-        space += 1
+        print(f"Item {view_index+1}: {inventory[view_index]}")
         
-    return space
+        view_index += 1
+    
 
-        
-print("\nWelcome to the runtime version of UNIX!")
-        
-inventory_size = int(input("\nTo get started, declare the size of your inventory: "))
+print("\nWelcome to the runtime version of UNIX! To get started, add some items to the inventory.")
 
-space = inventory_size
-
-space = add(store_inventory, space)
+additem()
 
 while True:
     
-    print("What would you like to do now?")
+    print("What would you like to do?")
     
-    print("\n1. Add more items")
-    print("\n1. Delete items")
-    print("\n1. Search the inventory")
-    print("\n1. View the inventory\n")
+    print("1: Add more items")
+    print("2: Delete items")
+    print("3: Update items")
+    print("4: View inventory")
+    print("5: Search for an item")
+    print("0: Quit")
     
-    menu_option = int(input("Enter a number to choose: "))
+    main_choice = int(input("Enter a number to pick an option: "))
     
-    if menu_option == 1:
+    if main_choice == 1:
         
-        space = add(store_inventory, space)
+        additem()
+    
+    elif main_choice == 2:
         
-    elif menu_option == 2:
+        deleteitem()
         
-        space = delete(store_inventory, inventory_size)
+    elif main_choice == 3:
+        
+        updateitem()
+        
+    elif main_choice == 4:
+        
+        viewinventory()
+        
+    elif main_choice == 5:
+        
+        searchitem()
+        
+    elif main_choice == 0:
+        
+        break
+        
+    else:
+        
+        print("Please enter a valid option")
+        
+    
+
