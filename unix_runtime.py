@@ -82,7 +82,6 @@ def viewinventory():
         
         view_index += 1
     
-
 print("\nWelcome to the runtime version of UNIX! To get started, add some items to the inventory.")
 
 additem()
