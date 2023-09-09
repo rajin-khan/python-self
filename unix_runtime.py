@@ -13,6 +13,10 @@ def additem():
         
 def deleteitem():
     
+    print("\nCurrent inventory: ")
+     
+    viewinventory()
+    
     itemcount = int(input("\nHow many items would you like to delete? "))
     
     counter = 0
@@ -21,28 +25,19 @@ def deleteitem():
         
         delete_index = 0
         
-        user_input = input("\nEnter the name of the item you would like to delete: ")
+        user_input = int(input("\nEnter the item number you would like to delete: "))
         
-        while delete_index < len(inventory):
+        if user_input - 1 >= 0 and user_input - 1 <= len(inventory) - 1:
             
-            if inventory[delete_index] == user_input:
-                
-                inventory.remove(user_input)
-                print("Item deleted!")
-                
-                break
+            inventory.pop(user_input-1)
+            print("Item deleted!")
             
-            else:
+        else:
                 
-                delete_index += 1
+            print("Enter a valid item number.")
+            counter -= 1
                 
         counter += 1
-            
-        if delete_index == len(inventory):
-            
-            print("Item not found in inventory.")
-            
-            counter -= 1
  
 def updateitem():
     
