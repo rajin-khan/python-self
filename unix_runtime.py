@@ -76,6 +76,12 @@ def viewinventory():
         print(f"Item {view_index+1}: {inventory[view_index]}")
         
         view_index += 1
+        
+def searchitem():
+    
+    search_input = input("Enter the namee of the item you would like to search for: ")
+    
+    search_index = 0
     
 print("\nWelcome to the runtime version of UNIX! To get started, add some items to the inventory.")
 
