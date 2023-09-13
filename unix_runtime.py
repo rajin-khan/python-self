@@ -79,11 +79,23 @@ def viewinventory():
         
 def searchitem():
     
-    search_input = input("Enter the namee of the item you would like to search for: ")
+    search_input = input("\nEnter the name of the item you would like to search for: ")
     
     search_index = 0
     
-    
+    while search_index < len(inventory):
+        
+        if inventory[search_index] == search_input.lower():
+            
+            print(f"{search_input} found at Serial: {search_index+1}!")
+            
+            break
+        
+        search_index += 1
+        
+        if search_index == len(inventory):
+            
+            print("Item not found, please try again!")
     
 print("\nWelcome to the runtime version of UNIX! To get started, add some items to the inventory.")
 
