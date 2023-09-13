@@ -83,6 +83,8 @@ def searchitem():
     
     search_index = 0
     
+    
+    
 print("\nWelcome to the runtime version of UNIX! To get started, add some items to the inventory.")
 
 additem()
