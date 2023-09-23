@@ -1,9 +1,14 @@
-print("Hello world!")
+print("Yo.")
 
-num = int(input("Enter the number of times you would like to print your own name: "))
+print("\nI know you're kinda cringe, but you can enter you name to change that.")
 
-name = input("Now, enter your name: ")
+name = input("Enter your name: ")
 
-for i in range(num):
+if name.lower() == "rajin":
     
-    print(f"Damn, your name is: {name}")
+    print("Damn, must be amazing being you. Chin up king.")
+
+else:
+    
+    print("Sucks to be you man. Still cringe.")
+
