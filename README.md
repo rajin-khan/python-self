@@ -47,10 +47,6 @@ This also serves as my personal learning log, featuring code snippets, projects,
 |---------------------------|---------------------------------------------------------------------------------|
 | **Basics**                | Data types, loops, conditionals, and functions.                               |
 | **Numpy and MatplotLib**                | Familiarity with these libraries for ML implementation.                               |
-| **Object-Oriented Programming** | Classes, inheritance, encapsulation, and polymorphism.                     |
-| **Data Structures**       | Lists, dictionaries, sets, tuples, and custom implementations.                |
-| **Algorithms**            | Sorting, searching, recursion, and basic problem-solving techniques.          |
-| **Projects**              | Fun applications and scripts to reinforce concepts.                           |
 
 ---
 
