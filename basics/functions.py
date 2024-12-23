@@ -29,3 +29,21 @@ def printGiven(x, y, z=None):
     print(x, y, z)
     
 printGiven(1, 2) #returns none in third place if no third digit passed in this case.
+
+
+#in python, functions are treated as objects, which means technically you could return it, or define a function in another function.
+
+def func1(x):
+    def func2():
+        print(x)
+    
+    return func2 #notice how we're not calling func2 (using parentheses), we're just passing it because it's an object.
+
+print(func1(3)) #this will print the location of func2 as that is what is getting returned for func1
+#however, we can call func1(value)() like this, it gets called as a function, thus we can execute func2.
+func1(3)()
+
+#on another note of deranged things you can do in python, you can assign a function like this:
+x = func1(3) #this ONLY works as func1 returns a function object, func2.
+x() #this calls the func2 object stored in x.
+
