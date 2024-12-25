@@ -23,6 +23,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 📂 python-learning-repo
 ├── 📁 basics/           # Fundamental Python concepts and exercises
 ├── 📁 numpy/            # Files on NumPy
+├── 📁 pandas/            # Files on Pandas
 ├── 📁 matplotlib/       # Files on MatPlotLib
 └── 📄 README.md         # This file
 ```
@@ -46,7 +47,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | **Topic**                 | **Description**                                                                 |
 |---------------------------|---------------------------------------------------------------------------------|
 | **Basics**                | Data types, loops, conditionals, and functions.                               |
-| **Numpy and MatplotLib**                | Familiarity with these libraries for ML implementation.                               |
+| **NumPy, Pandas and MatplotLib**                | Familiarity with these libraries for ML implementation.                               |
 
 ---
 
@@ -65,7 +66,8 @@ This also serves as my personal learning log, featuring code snippets, projects,
 |---------------------------|-----------------|----------------------|
 | Basics                   | ✅ Completed    | 24/12/24           |
 | NumPy                   | ✅ Completed    | 25/12/24           |
-| MatplotLib                   | 🔄 In Progress    | TBD           |
+| Pandas                   | 🔄 In Progress    | TBD           |
+| MatplotLib                   | ⏳ Not Started    | TBD           |
 
 ---
 
