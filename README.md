@@ -23,7 +23,8 @@ This also serves as my personal learning log, featuring code snippets, projects,
 📂 python-learning-repo
 ├── 📁 basics/           # Fundamental Python concepts and exercises
 ├── 📁 numpy/            # Files on NumPy
-├── 📁 pandas/            # Files on Pandas
+├── 📁 pandas/           # Files on Pandas
+├── 📁 cleanup/          # Files on Data Cleanup practices
 ├── 📁 matplotlib/       # Files on MatPlotLib
 └── 📄 README.md         # This file
 ```
@@ -46,17 +47,18 @@ This also serves as my personal learning log, featuring code snippets, projects,
 
 | **Topic**                 | **Description**                                                                 |
 |---------------------------|---------------------------------------------------------------------------------|
-| **Basics**                | Data types, loops, conditionals, and functions.                               |
-| **NumPy, Pandas and MatplotLib**                | Familiarity with these libraries for ML implementation.                               |
+| **Basics**                | Data types, loops, conditionals, and functions.                                 |
+| **NumPy, Pandas and MatplotLib**                | Familiarity with these libraries for ML implementation.   |
+| **Data Cleanup**                | Best Practices for cleaning up data   |
 
 ---
 
 ## 🌟 Goals
 
 - Achieve fluency in Python programming for ML.
-- Build a portfolio of Python projects.
+- Learn about NumPy, Pandas, and MatPlotLib to better prepare for ML.
 - Document and share learnings with others.
-- Use Python to solve real-world problems.
+- Use Python and related libraries to perform data analysis.
 
 ---
 
@@ -67,6 +69,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | Basics                    | ✅ Completed    | 24/12/24             |
 | NumPy                     | ✅ Completed    | 25/12/24             |
 | Pandas                    | ✅ Completed    | 26/12/24             |
+| Data Cleanup              | 🔄 In Progress  | TBD                  |
 | MatplotLib                | ⏳ Not Started  | TBD                  |
 
 ---
