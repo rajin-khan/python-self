@@ -64,10 +64,10 @@ This also serves as my personal learning log, featuring code snippets, projects,
 
 | **Topic**                 | **Status**      | **Completion Date** |
 |---------------------------|-----------------|----------------------|
-| Basics                   | ✅ Completed    | 24/12/24           |
-| NumPy                   | ✅ Completed    | 25/12/24           |
-| Pandas                   | 🔄 In Progress    | TBD           |
-| MatplotLib                   | ⏳ Not Started    | TBD           |
+| Basics                    | ✅ Completed    | 24/12/24             |
+| NumPy                     | ✅ Completed    | 25/12/24             |
+| Pandas                    | ✅ Completed    | 26/12/24             |
+| MatplotLib                | ⏳ Not Started  | TBD                  |
 
 ---
 
