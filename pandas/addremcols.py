@@ -68,4 +68,5 @@ print(bios.head())
 #NONE OF THESE MODIFY THE ORIGINAL FILE, IT IS ONLY THIS DATAFRAME INSTANCE.
 #to save this one, we can just:
 bios.to_csv('SELF-PYTHON/pandas/assets/bios_new.csv', index=False) #index=False bc otherwise it save the index as a separate col with values from 0 and so on.
-#ofc you can save it in tons of other formats
+coffee.to_csv('SELF-PYTHON/pandas/assets/coffee_new.csv', index=False)
+#ofc you can save it in tons of other formats.
