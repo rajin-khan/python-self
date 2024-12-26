@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.DataFrame([[1,2,3], [4,5,6], [7,8,9]], columns = ["A", "B", "C"]) #load up some data into the dataframe
 
-print(df.head(5)) #print the first 5 rows
+print(df.head(5)) #print the first 5 rows (putting in no int in the parentheses also shows first 5 values)
 print(df.tail(2)) #print the last 2 rows
 
 print(df.columns) #see just the cols
