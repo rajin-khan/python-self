@@ -22,10 +22,10 @@ This also serves as my personal learning log, featuring code snippets, projects,
 ```plaintext
 📂 python-learning-repo
 ├── 📁 basics/           # Fundamental Python concepts and exercises
-├── 📁 numpy/            # Files on NumPy
-├── 📁 pandas/           # Files on Pandas
 ├── 📁 cleanup/          # Files on Data Cleanup practices
 ├── 📁 matplotlib/       # Files on MatPlotLib
+├── 📁 numpy/            # Files on NumPy
+├── 📁 pandas/           # Files on Pandas
 └── 📄 README.md         # This file
 ```
 
