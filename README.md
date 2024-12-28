@@ -69,8 +69,8 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | Basics                    | ✅ Completed    | 24/12/24             |
 | NumPy                     | ✅ Completed    | 25/12/24             |
 | Pandas                    | ✅ Completed    | 26/12/24             |
-| Data Cleanup              | 🔄 In Progress  | TBD                  |
-| MatplotLib                | ⏳ Not Started  | TBD                  |
+| Data Cleanup              | ✅ Completed    | 28/12/24             |
+| MatplotLib                | 🔄 In Progress  | TBD                  |
 
 ---
 
