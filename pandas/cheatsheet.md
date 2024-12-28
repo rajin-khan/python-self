@@ -86,6 +86,15 @@ for index, row in df.iterrows():
 ```python
 df['New Col'] = df['Col1'] * 2
 ```
+
+- **Deleting Columns**:
+```python
+df.drop('Column Name', axis=1, inplace=True)  # Drop a single column
+df.drop(['Col1', 'Col2'], axis=1, inplace=True)  # Drop multiple columns
+#The axis argument in pandas specifies whether to apply the operation along rows (axis=0) or columns (axis=1). 
+#For deleting columns, axis=1 is used.
+```
+
 - **Renaming**:
 ```python
 df.rename(columns={'Old Name': 'New Name'}, inplace=True)
@@ -167,7 +176,33 @@ df['Col1'].fillna(df['Col1'].median(), inplace=True)
 
 ---
 
-## **10. Best Practices in ML with Pandas**
+## **10. Exporting Data**
+
+- **To CSV**:
+```python
+df.to_csv('output.csv', index=False)
+```
+- **To Excel**:
+```python
+df.to_excel('output.xlsx', index=False)
+```
+- **To JSON**:
+```python
+df.to_json('output.json')
+```
+- **To Parquet**:
+```python
+df.to_parquet('output.parquet')
+```
+- **To SQL Database**:
+```python
+import sqlite3
+conn = sqlite3.connect('output.db')
+df.to_sql('table_name', conn, if_exists='replace', index=False)
+```
+---
+
+## **11. Best Practices in ML with Pandas**
 1. **Efficient Data Loading**:
    - Use Parquet for faster reads/writes compared to CSV.
    - Leverage PyArrow backend for better type handling (e.g., strings, booleans).
