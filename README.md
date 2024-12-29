@@ -70,7 +70,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | NumPy                     | ✅ Completed    | 25/12/24             |
 | Pandas                    | ✅ Completed    | 26/12/24             |
 | Data Cleanup              | ✅ Completed    | 28/12/24             |
-| MatplotLib                | 🔄 In Progress  | TBD                  |
+| MatplotLib                | ✅ Completed    | 29/12/24                  |
 
 ---
 
