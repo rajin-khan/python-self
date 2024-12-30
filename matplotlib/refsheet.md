@@ -1,0 +1,32 @@
+# MatplotLib Reference Sheet
+
+---
+
+| **Concept**             | **Syntax/Example**                                                                                          | **Explanation**                                                                                               |
+|--------------------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| **Importing Matplotlib** | import matplotlib.pyplot as plt                                                                           | Import the `pyplot` module, the main interface for plotting with Matplotlib.                                  |
+| **Basic Line Plot**      | plt.plot([1, 2, 3], [4, 5, 6])<br>plt.title('Line Plot')<br>plt.show()                                    | Creates a basic line plot with x and y values. Use `plt.show()` to display the plot.                          |
+| **Adding Titles and Labels** | plt.title('My Title')<br>plt.xlabel('X-axis')<br>plt.ylabel('Y-axis')                                  | Add a title and labels to the x and y axes.                                                                  |
+| **Styling Line Plots**   | plt.plot(x, y, color='red', linestyle='--', marker='o', label='Data')<br>plt.legend()                     | Customize line color, style, marker, and add a legend.                                                       |
+| **Bar Plot**             | plt.bar(['A', 'B', 'C'], [10, 15, 7], color='blue')                                                       | Creates a vertical bar plot.                                                                                  |
+| **Horizontal Bar Plot**  | plt.barh(['A', 'B', 'C'], [10, 15, 7], color='green')                                                     | Creates a horizontal bar plot.                                                                                |
+| **Scatter Plot**         | plt.scatter(x, y, color='orange', alpha=0.5, label='Points')<br>plt.legend()                              | Creates a scatter plot. Use `alpha` to control point transparency.                                            |
+| **Histogram**            | plt.hist(data, bins=20, color='purple', edgecolor='black')                                                | Plots a histogram to show data distribution. Use `bins` to control intervals.                                 |
+| **Pie Chart**            | plt.pie([15, 30, 45], labels=['A', 'B', 'C'], autopct='%1.1f%%', startangle=140)                          | Creates a pie chart. Use `autopct` to show percentages.                                                       |
+| **Box Plot**             | plt.boxplot([data1, data2], labels=['Set 1', 'Set 2'])                                                    | Displays a box plot to visualize the spread and outliers of data.                                             |
+| **Multiple Subplots**    | plt.subplot(2, 1, 1)<br>plt.plot(x, y)<br>plt.subplot(2, 1, 2)<br>plt.bar(x, y)<br>plt.tight_layout()      | Create multiple plots within a single figure using `subplot(rows, cols, index)`.                              |
+| **Figure Size**          | plt.figure(figsize=(8, 6))                                                                               | Adjust the figure size using `figsize`.                                                                       |
+| **Saving Figures**       | plt.savefig('plot.png', dpi=300)                                                                         | Save the current figure to a file. Use `dpi` to specify resolution.                                           |
+| **Logarithmic Scale**    | plt.xscale('log')<br>plt.yscale('log')                                                                    | Set logarithmic scaling for the x or y axis.                                                                  |
+| **Annotations**          | plt.annotate('Peak', xy=(2, 6), xytext=(3, 8), arrowprops=dict(facecolor='black', arrowstyle='->'))       | Add annotations to highlight points of interest on the plot.                                                  |
+| **Grid**                 | plt.grid(True, linestyle='--', color='gray')                                                             | Add a grid to the plot for better readability.                                                                |
+| **Legend**               | plt.plot(x, y, label='Data')<br>plt.legend(loc='best')                                                   | Add a legend to label different data series. Use `loc` to specify position.                                   |
+| **Ticks**                | plt.xticks([0, 1, 2], ['Zero', 'One', 'Two'])<br>plt.yticks(rotation=45)                                  | Customize x and y axis ticks and their labels.                                                                |
+| **3D Plotting**          | from mpl_toolkits.mplot3d import Axes3D<br>fig = plt.figure()<br>ax = fig.add_subplot(111, projection='3d')<br>ax.plot(x, y, z) | Create 3D plots using the `Axes3D` module for advanced visualizations.                                        |
+| **Adding Text**          | plt.text(1, 2, 'Point (1,2)', fontsize=12, color='red')                                                  | Add custom text to the plot at a specific location.                                                           |
+| **Horizontal and Vertical Lines** | plt.axhline(y=0.5, color='blue', linestyle='--')<br>plt.axvline(x=1.5, color='green', linestyle='--') | Add horizontal and vertical reference lines to a plot.                                                        |
+| **Fill Between**         | plt.fill_between(x, y1, y2, color='yellow', alpha=0.3)                                                   | Fill the area between two curves or a curve and the axis.                                                     |
+| **Color Maps**           | plt.imshow(data, cmap='viridis', interpolation='none')                                                   | Display data as an image. Use `cmap` to choose a color map.                                                   |
+| **Tight Layout**         | plt.tight_layout()                                                                                      | Automatically adjust subplot parameters to give specified padding.                                            |
+
+---
