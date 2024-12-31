@@ -74,6 +74,10 @@ This also serves as my personal learning log, featuring code snippets, projects,
 
 ---
 
+##### Upon completion of the first 5 topics, an exploratory data analysis project was done. [Check it out here!](https://github.com/rajin-khan/Gaming-Behavior-Analysis)
+
+---
+
 <div align="center">
 
 #### A dev quote for you:
