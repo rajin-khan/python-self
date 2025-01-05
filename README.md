@@ -26,6 +26,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 ├── 📁 matplotlib/       # Files on MatPlotLib
 ├── 📁 numpy/            # Files on NumPy
 ├── 📁 pandas/           # Files on Pandas
+├── 📁 webscraping/      # Files on Web Scraping with BeautifulSoup
 └── 📄 README.md         # This file
 ```
 
@@ -49,7 +50,8 @@ This also serves as my personal learning log, featuring code snippets, projects,
 |---------------------------|---------------------------------------------------------------------------------|
 | **Basics**                | Data types, loops, conditionals, and functions.                                 |
 | **NumPy, Pandas and MatplotLib**                | Familiarity with these libraries for ML implementation.   |
-| **Data Cleanup**                | Best Practices for cleaning up data   |
+| **Data Cleanup**                | Best Practices for cleaning up data.   |
+| **Web Scraping**                | Learning how to retreive data on my own.   |
 
 ---
 
@@ -70,7 +72,8 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | NumPy                     | ✅ Completed    | 25/12/24             |
 | Pandas                    | ✅ Completed    | 26/12/24             |
 | Data Cleanup              | ✅ Completed    | 28/12/24             |
-| MatplotLib                | ✅ Completed    | 29/12/24                  |
+| MatplotLib                | ✅ Completed    | 29/12/24             |
+| Web Scraping              | 🔄 In Progress  | TBD                  |
 
 ---
 
