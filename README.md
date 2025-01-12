@@ -73,6 +73,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | Pandas                    | ✅ Completed    | 26/12/24             |
 | Data Cleanup              | ✅ Completed    | 28/12/24             |
 | MatplotLib                | ✅ Completed    | 29/12/24             |
+| SciKit Learn              | 🔄 In Progress  | TBD                  |
 | Web Scraping              | 🔄 In Progress  | TBD                  |
 
 ---
