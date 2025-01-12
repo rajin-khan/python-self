@@ -49,7 +49,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | **Topic**                 | **Description**                                                                 |
 |---------------------------|---------------------------------------------------------------------------------|
 | **Basics**                | Data types, loops, conditionals, and functions.                                 |
-| **NumPy, Pandas and MatplotLib**                | Familiarity with these libraries for ML implementation.   |
+| **NumPy, Pandas, MatplotLib, and Seaborn**                | Familiarity with these libraries for ML implementation.   |
 | **Data Cleanup**                | Best Practices for cleaning up data.   |
 | **Web Scraping**                | Learning how to retreive data on my own.   |
 
@@ -73,6 +73,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | Pandas                    | ✅ Completed    | 26/12/24             |
 | Data Cleanup              | ✅ Completed    | 28/12/24             |
 | MatplotLib                | ✅ Completed    | 29/12/24             |
+| Seaborn                   | 🔄 In Progress  | TBD                  |
 | SciKit Learn              | 🔄 In Progress  | TBD                  |
 | Web Scraping              | 🔄 In Progress  | TBD                  |
 
