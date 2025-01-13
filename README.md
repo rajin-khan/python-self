@@ -67,7 +67,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 
 ## 📊 Progress Tracker
 
-| **Topic**                 | **Status**      | **Completion Date** |
+| **Topic**                 | **Status**      | **Completion Date**  |
 |---------------------------|-----------------|----------------------|
 | Basics                    | ✅ Completed    | 24/12/24             |
 | NumPy                     | ✅ Completed    | 25/12/24             |
@@ -75,8 +75,8 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | Data Cleanup              | ✅ Completed    | 28/12/24             |
 | MatplotLib                | ✅ Completed    | 29/12/24             |
 | Seaborn                   | 🔄 In Progress  | TBD                  |
-| SciKit Learn              | 🔄 In Progress  | TBD                  |
-| Web Scraping              | 🔄 In Progress  | TBD                  |
+| SciKit Learn              | ⏳ Not Started  | TBD                  |
+| Web Scraping              | ⏳ Not Started  | TBD                  |
 
 ---
 
