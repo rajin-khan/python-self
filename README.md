@@ -26,6 +26,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 ├── 📁 matplotlib/       # Files on MatPlotLib
 ├── 📁 numpy/            # Files on NumPy
 ├── 📁 pandas/           # Files on Pandas
+├── 📁 pandas/           # Files on Seaborn
 ├── 📁 webscraping/      # Files on Web Scraping with BeautifulSoup
 └── 📄 README.md         # This file
 ```
