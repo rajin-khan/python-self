@@ -75,7 +75,7 @@ This also serves as my personal learning log, featuring code snippets, projects,
 | Data Cleanup              | ✅ Completed    | 28/12/24             |
 | MatplotLib                | ✅ Completed    | 29/12/24             |
 | Seaborn                   | 🔄 In Progress  | TBD                  |
-| SciKit Learn              | ⏳ Not Started  | TBD                  |
+| SciKit Learn              | 🔄 In Progress  | TBD                  |
 | Web Scraping              | ⏳ Not Started  | TBD                  |
 
 ---
