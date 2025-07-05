@@ -1,7 +1,3 @@
-Here is a refined and comprehensive Matplotlib cheat sheet focusing only on Matplotlib, NumPy, and Pandas, while paying close attention to the specific examples and comments from your notebooks:
-
----
-
 # **Matplotlib Visualization Cheat Sheet**
 
 ## **What is Matplotlib?**
